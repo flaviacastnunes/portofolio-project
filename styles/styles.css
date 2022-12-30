@@ -5,8 +5,6 @@
 --secondary-color: #f9f7fe;
 }
 
-
-
 body{
     font-family: var(--default-font-family); 
 }
@@ -31,7 +29,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     margin: 0;
     color: #272142;
-    
 }
 
 h1 {
@@ -92,3 +89,20 @@ p {
       text-align: center;
     }
   }
+
+  .about-section {
+    padding: 160px 20px;
+}
+
+.about-section-content {
+    margin: 30px;}
+
+    .about-section h1 {
+        font-size: 64px;
+        line-height: 80px;}
+
+        .about-section h2 {
+            font-size: 18px;
+            font-family: var(--default-font-family);}
+
+            img{border-radius:10px;}
