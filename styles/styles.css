@@ -73,12 +73,22 @@ p {
     padding: 120px 60px;
 }
 
-@media(max-width: 900px){
-    body {text-align: center;}
-    h1{font-size: 50px;
-        padding: 10px;
+@media (max-width: 900px) {
+    h1 {
+      font-size: 44px;
+      line-height: 2;
     }
+  
     h2 {
-        font-size: 40px;
+      font-size: 44px;
     }
-}
+  
+    .hero {
+      padding: 80px 20px;
+    }
+  
+    .project-desciption {
+      padding: 0;
+      text-align: center;
+    }
+  }
