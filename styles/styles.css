@@ -125,3 +125,26 @@ p {
             padding: 15px 30px;
         }
 
+        footer .email-link {
+            text-decoration: none;
+            color: black;
+            font-size: 24px;
+        }
+
+        footer .social-links a {
+            margin: 0 20px;
+            color: var(--branding-color);
+            background: var(--secondary-color);
+            padding: 10px 14px;
+            border-radius: 50%;
+            font-size: 18px;
+            transition: all 100ms ease-in-out;
+        }
+
+        footer .social-links a:hover {
+            color: var(--secondary-color);
+            background: var(--branding-color);
+                    }
+
+
+
