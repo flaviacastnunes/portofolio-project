@@ -75,7 +75,10 @@ p {
 
   .content-container {
     padding: 160px 20px;
+    
 }
+
+.content-container-content {margin:10px;}
 
     .content {
     margin: 30px;
@@ -139,12 +142,12 @@ p {
     
         @media (max-width: 900px) {
     h1 {
-      font-size: 4px;
+      font-size: 40px;
       line-height: 2;
     }
   
     h2 {
-      font-size: 44px;
+      font-size: 24px;
     }
   
     .hero {
@@ -165,6 +168,17 @@ p {
         text-align: center;
 
     }
+    .content-container-content {
+        padding: 10px 30px;
+        margin: 5px;
+        text-align: left;    }
+        .content-container-content h1 {
+           font-size: 35px;
+           line-height: 1,5;
+            text-align: center;    }
+
+            footer {padding-top:50px}
+
 }
 
 
