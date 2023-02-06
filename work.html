@@ -17,17 +17,15 @@
    <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/"><img src="/images/shecodesLogo.jpg" alt="Shecodes Logo" class="logo"></a>
+          
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about.html">About</a>
+                <a class="nav-link" href="/index.html">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="/work.html">Work</a>
@@ -39,45 +37,78 @@
                       </div>
         </div>
       </nav>
-    <div class="content-container container">
-        <div class="content">
-            <h1 class="mb-5">Take a look at what I've been working on!</h1>
+    <div class="container">
+
+        <div class="content content-container">
+            <h1>Take a look at some of my projects!</h1>
         </div>
-        <div class="row">
-            <div class="col-md-6 mb-6">
-                <img src="/images/the-office.png" alt="The Office Project" class="img-fluid mb-3 rounded">
-                <h3 class="text-center m-0"><en>The Office</en> Project</h3>
-                <p class="text-center text-muted">Built with HTML and CSS.</p>
-            </div>
-            <div class="col-md-6 mb-6">
-                <img src="/images/weather-project.png" alt="Weather App Project" class="img-fluid mb-3 rounded">
-                <h3 class="text-center m-0">The Weather App Project</h3>
-                <p class="text-center text-muted">Built with HTML, CSS and Java Script.</p>
-            </div>
-            <div class="col-md-6 mb-6">
-                <img src="/images/world-clock.png" alt="World Clock Project" class="img-fluid mb-3 rounded">
-                <h3 class="text-center m-0">The World Clock App Project</h3>
-                <p class="text-center text-muted">Built with HTML, CSS and Java Script.</p>
-            </div>
-        </div>
-        <footer>
-            <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-            <div>
-            <h4>Work Inquiry</h4>
-            <p class="text-muted">Let's work together!</p>
-            </div>
-            <a href="" class="btn btn-branding mt-3" title="Contact me">Contact me</a>
-        </div>
-        <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:flavia91nunes@gmail.com" class="email-link" title="Email me">flavia91nunes@gmail.com</a>
-        </div>
-        <div class="social-links d-flex justify-content-center">
-          <a href="https://github.com/flaviacastnunes" title="See my Git Hub repository"><i class="fab fa-github" aria-hidden="true"></i></a>
-          <a href="https://www.instagram.com/flaviacastnunes" title="Go to my instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-          <a href="https://www.facebook.com/flavianunes" title="Go to my facebook"><i class="fa-brands fa-facebook"></i></a>
-        </div>
-        <p class="text-center mt-5">✌️ This website was coded by Flávia Nunes, and is <a href="https://github.com/flaviacastnunes/portofolio-project" title="Go to GitHub">open-sourced.</a> </p>
-      </footer>
+        <hr/>
+
+        <div class="work-container">
+
+          <div class="row mb-10">
+
+              <div class="col">
+              <div class="project-description">
+                  <h2 class="mb-5">World Clock</h2>
+                  <p class="mb-5 text-muted">This is a project where I built a world clock (with HTML + CSS, Java Script and using an API), where the user can see the time on the current city and on the citys selected.  </p>
+                  <a href="https://world-clock-byflavia.netlify.app/" class="btn btn-branding-outline" title="Go to the app" target="_blank">World Clock App</a>
+              </div>
+          </div>
+              <div class="col d-none d-lg-block">
+                  <img src="/images/world-clock.png" alt="World Clock App" class="img-fluid"/>
+                  </div></div></div>
+                  <hr/>
+                  <div class="work-container">
+          <div class="row mb-10">
+              <div class="col d-none d-lg-block">
+                  <img src="/images/weather-project.png" alt="Weather project" class="img-fluid"/>
+              </div>
+              <div class="col">
+              <div class="project-description m-10">
+                  <h2 class="mb-5">Weather App</h2>
+                  <p class="mb-5 text-muted">In this project I built a weather app, where the user can get to know the actual temperature, humidity and precipitation of any city in the world, as also a forecast with the maximum and minimun temperatures for the next 5 days.
+                      To build this app I used React.js and API's to get real time data. </p>
+                  <a href="https://weather-proj-react.netlify.app/" class="btn btn-branding-outline" title="Go to the app" target="_blank">Weather App</a>
+              </div>
+          </div></div>
+      </div>   
+      <hr/>
+      <div class="work-container">
+                  <div class="row mb-10">
+                    <div class="col">
+                    <div class="project-description">
+                        <h2 class="mb-5">Dictionary</h2>
+                        <p class="mb-5 text-muted">This is an app built with React.js, where the user can search for a word and, accessing to API's, the app will show the meanings, synonyms and images related to that word.</p>
+                        <a href="https://dictionary-app-byflavia.netlify.app" class="btn btn-branding-outline" title="Go to the app" target="_blank">Dictionary</a>
+                    </div>
+                </div>
+                    <div class="col d-none d-lg-block m-10">
+                        <img src="/images/dictionary.png" alt="Dictionary App" class="img-fluid">
+                        </div>
+                </div></div>
+                <hr/>
+                  </div>
+                  <div class="container">
+                    <footer>
+                        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+                        <div>
+                        <h4>Work Inquiry</h4>
+                        <p class="text-muted">Let's work together!</p>
+                        </div>
+                        <a href="/contact.html" class="btn btn-branding mt-3" title="Contact me">Contact me</a>
+                    </div>
+                    
+                
+            
+            <div class="social-links d-flex justify--center">
+              <a href="https://github.com/flaviacastnunes" title="See my GitHub repository" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/flavianunes" title="Go to my LinkedIn profile" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.shecodes.io/graduates/50184-flavia-nunes" title="Go to my SheCodes profile" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
+            </div></div>
+            <p class="text-center mt-5">✌️ This website was coded by Flávia Nunes, and is <a href="https://github.com/flaviacastnunes/portofolio-project" title="Go to GitHub">open-sourced on GitHub.</a> </p>
+            </footer>
+                </div>
     </div>
        </body>
    </html>
